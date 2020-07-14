@@ -7,7 +7,7 @@ function ProductItem(){
     return(
         <div>
              <h1>{Shoes[id].name}</h1> 
-             <img src={Shoes[id].img} width={500} height={450}/>
+             <img src={Shoes[id].img} alt="product img" width={500} height={450}/>
         </div>
     );
 }
